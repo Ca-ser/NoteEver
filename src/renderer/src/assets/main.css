@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Milkdown Editor Styles */
+.milkdown {
+  height: 100%;
+}
+
+.milkdown .editor {
+  outline: none;
+  min-height: 500px;
+}
+
+.milkdown .editor p {
+  margin: 0.5em 0;
+}
+
+.milkdown .editor h1 { font-size: 2em; font-weight: bold; margin: 1em 0 0.5em; }
+.milkdown .editor h2 { font-size: 1.5em; font-weight: bold; margin: 1em 0 0.5em; }
+.milkdown .editor h3 { font-size: 1.25em; font-weight: bold; margin: 1em 0 0.5em; }
+
+.milkdown .editor ul, .milkdown .editor ol {
+  padding-left: 1.5em;
+  margin: 0.5em 0;
+}
+
+.milkdown .editor ul { list-style-type: disc; }
+.milkdown .editor ol { list-style-type: decimal; }
+
+.milkdown .editor blockquote {
+  border-left: 4px solid #e2e8f0;
+  padding-left: 1em;
+  color: #64748b;
+  font-style: italic;
+  margin: 1em 0;
+}
+
+.milkdown .editor code {
+  background-color: #f1f5f9;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

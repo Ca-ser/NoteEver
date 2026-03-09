@@ -1,34 +1,26 @@
-# react-ts
+# Markdown Editor
 
-An Electron application with React
+一个基于 TypeScript 开发的 Markdown 编辑器，支持实时预览、语法高亮和git实时同步，皆在提供实时快捷的 Markdown 编写体验。
 
-## Recommended IDE Setup
+## 项目简介
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+NoteEver 是一个轻量级 Web Markdown 编辑器，使用 TypeScript 构建，支持 Markdown 实时渲染和常用编辑功能，适用于博客写作、文档编辑等场景。
 
-## Project Setup
+## 技术栈
 
-### Install
+- TypeScript
+- HTML5
+- CSS3
+- Markdown Parser
+- Electron
+- Webpack / Vite
 
-```bash
-$ npm install
-```
+## 功能特性
 
-### Development
+- 实时 Markdown 预览
+- Markdown 语法高亮
+- 支持git 一键同步数据
+- 支持代码块、图片、链接等语法
+- 编辑区与预览区同步滚动
 
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+## 项目结构
